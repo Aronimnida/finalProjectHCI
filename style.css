@@ -1,0 +1,190 @@
+/* Home */
+body {
+    background-color: #1a1a1a; 
+    color: #f5f5f5;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #000000;
+    padding: 20px;
+    border-bottom: 2px solid #b76e79; 
+    text-align: center;
+}
+
+.nav-links a {
+    color: #b76e79;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffcbd1; 
+    text-shadow: 0 0 10px rgba(183, 110, 121, 0.5);
+}
+
+
+.hero {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: radial-gradient(circle, rgba(183,110,121,0.1) 0%, rgba(26,26,26,1) 70%);
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+    background: linear-gradient(to right, #e4b4b4, #b76e79, #8d4f58);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 5px;
+}
+.cta-button {
+    margin-top: 30px;
+    padding: 12px 30px;
+    border: 1px solid #b76e79;
+    color: #b76e79;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.4s;
+}
+
+.cta-button:hover {
+    background-color: #b76e79;
+    color: #1a1a1a;
+    box-shadow: 0 0 20px rgba(183, 110, 121, 0.4);
+}
+
+/* Product */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(183, 110, 121, 0.2);
+    padding: 20px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    text-align: center;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    border-color: #b76e79;
+}
+
+.product-card img {
+    width: 100%; 
+    height: 250px; 
+    object-fit: contain; 
+    margin-bottom: 15px;
+    background-color: rgba(0,0,0,0.2); 
+}
+
+.price {
+    color: #b76e79;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+/* Contact us */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 30px auto;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(183, 110, 121, 0.3);
+    padding: 12px;
+    color: white;
+    font-family: inherit;
+    border-radius: 4px;
+}
+
+.contact-form input:focus, 
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #b76e79;
+    box-shadow: 0 0 10px rgba(183, 110, 121, 0.2);
+}
+
+
+
+
+/* About */
+body {
+    background-color: #121212; /* Dark Charcoal */
+    color: #e0e0e0;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+
+nav {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    border-bottom: 1px solid #b76e79;
+}
+
+nav a {
+    color: #b76e79;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav a.active {
+    border-bottom: 2px solid #b76e79;
+    padding-bottom: 5px;
+}
+
+
+h1 {
+    font-size: 3rem;
+
+    background: linear-gradient(to right, #e4b4b4, #b76e79, #8d4f58);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 50px;
+}
+
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: #b76e79;
+    border-radius: 50%;
+    margin: 20px auto;
+    filter: blur(40px); 
+    opacity: 0.5;
+}
+
+.about-container {
+    padding: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+}
